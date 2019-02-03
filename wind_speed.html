@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Visualization Dashboard</title>
+  </head>
+
+  <body>
+    <!-- Start of Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <a class="navbar-brand" href="./index.html"><b>Lattitude</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- plots drop down and 2 other links -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="./Max_temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="./humidity.html">Humidity</a>
+              <a class="dropdown-item" href="./cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="./wind_speed.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./comparisons.html">Comparisons <span class="sr-only">(current)</span></a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Start of main content -->
+    <div class="container-fluid">
+        <div class='row'>
+            <div class="col-md-8">
+                <div class="box">
+                    <div class="page-header">
+                        <h1 class="title">Wind Speed</h1>
+                        <hr>
+                    </div>
+                    <div class="box">
+                        <img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" height="300" width="500" align="center">
+                        <p>Wind speed and latitude seem to have a light correlation. As you move further away from the equater, the wind speed becomes greater.</p>
+                    </div>
+                </div>
+            </div>
+        
+
+    <!-- End of main content -->
+            <div class='col-md-4'>
+                <div class="box">
+                    <div class="page-header">
+                    <h2 class='title'>Visualizations</h2>
+                    <hr>
+                    </div>
+                <div class="box">
+                    <a href="./max_temp.html"><img src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" height="150" width="150"></a>
+                    <a href="./humidity.html"><img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity" height="150" width="150"></a>
+                    <a href="./cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" height="150" width="150"></a>
+                    <a href="./wind_speed.html"><img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" height="150" width="150"></a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
